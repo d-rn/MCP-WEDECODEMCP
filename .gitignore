@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.tmp/
+OUTPUT/
+OUTPUT-GAME/
+workspaces/
+pkg/
+wxapkg/
+test/js/
+.DS_Store
+.idea/
+.vscode/
+*.log
+package-lock.json
