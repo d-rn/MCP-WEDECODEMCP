@@ -136,11 +136,35 @@ C:\path\to\__APP__.wxapkg
 - [`prompts/cherry-studio/security-audit.md`](./prompts/cherry-studio/security-audit.md)
 - [`prompts/cherry-studio/reverse-analysis.md`](./prompts/cherry-studio/reverse-analysis.md)
 
+## 一键打包
+
+如果你要把这个项目继续打包发给别人，可以直接使用仓库内置脚本：
+
+```powershell
+npm run package:runtime
+```
+
+生成运行包。
+
+```powershell
+npm run package:source
+```
+
+生成源码包。
+
+```powershell
+npm run package:all
+```
+
+同时生成两种 zip，默认输出到 `release/` 目录。
+
 ## 安装和打包文档
 
 更详细的说明见：
 
 - [`docs/INSTALL-DEPLOY.md`](./docs/INSTALL-DEPLOY.md)
+- [`docs/GITHUB-HOMEPAGE.md`](./docs/GITHUB-HOMEPAGE.md)
+- [`docs/RELEASE-v0.1.0.md`](./docs/RELEASE-v0.1.0.md)
 - [`MCP.md`](./MCP.md)
 - [`NOTICE.md`](./NOTICE.md)
 

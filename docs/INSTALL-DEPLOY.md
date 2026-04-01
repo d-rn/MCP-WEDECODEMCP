@@ -349,6 +349,16 @@ C:\path\to\__APP__.wxapkg
 
 下面给出几种常见打包方式。
 
+如果你直接使用本仓库，优先推荐用内置脚本：
+
+```powershell
+npm run package:runtime
+npm run package:source
+npm run package:all
+```
+
+默认会把 zip 输出到 `release/` 目录。
+
 ### 11.1 打预构建运行包
 
 先确保你本地已经构建完成：
